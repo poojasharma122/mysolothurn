@@ -126,6 +126,7 @@
 
     .explore-text-image {
         width: 100%;
+        border-left: none;
     }
 
     .just-winning-inner {
@@ -157,6 +158,10 @@ li.footer_item {
     padding-bottom: 15px;
 }
 
+.heading-slider h2 {
+    padding-bottom: 20px;
+}
+
    
 
 }
@@ -175,6 +180,10 @@ li.footer_item {
     }
 
     .second-heading {
+    font-size: 27px;
+}
+
+.heading h2 {
     font-size: 27px;
 }
 }
