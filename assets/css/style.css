@@ -439,13 +439,13 @@ section.homepage::after {
 }
 
 .sslLink {
-    background-image: url("../images/ssl.svg");
+    background-image: url("../images/footer-logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     max-width: 134px;
     width: 100%;
-    height: 40px;
+    height: 50px;
     display: inline-block;
 }
 
@@ -1120,7 +1120,7 @@ button.close-text-button:hover svg {
 /* blog section start */
 
 .second-heading {
-    font-size: 26px;
+    font-size: 32px;
     color: #fff;
     font-weight: 700;
     line-height: normal;
@@ -1491,6 +1491,18 @@ button.close-text-button:hover svg {
 
 .about-text {
     background: #fff2d3;
+}
+
+.about-main-content p {
+    color: #0000009c;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.about-main-content h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0000009c;
 }
 
 
