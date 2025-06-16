@@ -1243,6 +1243,11 @@ button.close-text-button:hover svg {
     color: #3e9172;
 }
 
+.gallery_wrap {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
 /* gallery css end */
 
 /*contact css start*/
@@ -1257,14 +1262,14 @@ button.close-text-button:hover svg {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .contact-banner .overlay {
     background-color: #0080808c;
     color: white;
     text-align: center;
     height: 450px;
     width: 100%;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 10px;
@@ -1274,46 +1279,53 @@ button.close-text-button:hover svg {
     font-size: 50px;
     margin-bottom: 20px;
 }
+
 .contact-banner p {
-  max-width: 600px;
-  margin: 0 auto;
-  font-size: 18px;
-  line-height: 25px;
-  color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
 }
 
 .contact-section {
-  padding: 90px 20px;
+    padding: 90px 20px;
 }
+
 .contact-section .container {
     display: flex;
     max-width: 1350px;
     margin: 0 auto;
     gap: 40px;
 }
+
 .contact-info {
-  flex: 1;
- max-width: 600px;
+    flex: 1;
+    max-width: 600px;
 }
 
 .contact-info h2 {
-  font-size: 30px;
-  margin-bottom: 15px;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
+
 .emailwrap {
     display: flex;
-    gap:2px;
+    gap: 2px;
     align-items: baseline;
 }
+
 .contact-info p {
-  font-size: 14px;
-  margin-bottom: 30px;
-  color: #555;
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #555;
 }
+
 .contact-info .info-block h3 {
     color: teal;
     font-size: 25px;
 }
+
 .contact-info .info-block {
     display: flex;
     gap: 6px;
@@ -1321,16 +1333,17 @@ button.close-text-button:hover svg {
     flex-direction: column;
     align-items: start;
 }
-.contact-info  .info-block i {
-  font-size: 20px;
-  color: #fff;
-  background-color: #002244;
-  padding: 10px;
-  border-radius: 5px;
+
+.contact-info .info-block i {
+    font-size: 20px;
+    color: #fff;
+    background-color: #002244;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .contact-info .info-block div {
-  line-height: 1.4;
+    line-height: 1.4;
 }
 
 
@@ -1340,30 +1353,35 @@ button.close-text-button:hover svg {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    padding: 30px 40px;
+    padding: 30px 0;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .contact-form .row {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    gap: 0;
+    padding: 20px 40px;
 }
 
 .contact-form .input-group {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  margin-bottom: 20px;
-  padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 0;
 }
 
 .contact-form .input-group label {
-  font-weight: bold;
-  color: #003554;
-  margin-bottom: 5px;
-  font-size: 14px;
+    font-weight: bold;
+    color: #003554;
+    margin-bottom: 5px;
+    font-size: 14px;
 }
+
 .emailwrap a {
     color: #000;
     text-decoration: none;
@@ -1371,33 +1389,82 @@ button.close-text-button:hover svg {
 
 .contact-form .input-group input,
 .contact-form .input-group textarea {
-  padding: 15px;
-  border: none;
-  border-radius: 10px !important;
-  background-color: white;
-  font-size: 14px;
-  color: #333;
-  outline: none;
-  box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    border-radius: 10px !important;
+    background-color: white;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    box-sizing: border-box;
 }
 
 .contact-form .input-group input::placeholder,
 .contact-form .input-group textarea::placeholder {
-  color: #ccc;
+    color: #ccc;
 }
 
 .contact-form button {
-  padding: 15px 20px;
-  background-color: #002949;
-  color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 200px;
+    padding: 15px 20px;
+    background-color: #002949;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
 }
+
 .contact-info .info-block strong {
     color: #000;
     font-size: 20px;
 }
+
 /*contact css end*/
+
+
+
+/* blog page content css start */
+
+.guides_desc_sec {
+    background: #008080;
+}
+
+
+.guides_desc_content h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    line-height: 45px;
+}
+
+.guides_desc_content p {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.guides_desc_content h3 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.guides_desc_content ul li {
+    padding-left: 25px;
+    position: relative;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.guides_desc_content ul li::before {
+    content: ".";
+    position: absolute;
+    font-size: 60px;
+    top: -18px;
+    left: 0px;
+}
+
+/* blog page content css end */
