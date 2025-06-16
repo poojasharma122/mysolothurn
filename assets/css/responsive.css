@@ -113,7 +113,7 @@
     }
 
     .pb-80 {
-        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .listing {
@@ -129,16 +129,28 @@
     }
 
     .just-winning-inner {
-    padding: 20px 30px 10px;
-}
+        padding: 20px 30px 10px;
+    }
 
-.swiper-button-prev {
-    display: none;
-}
+    .swiper-button-prev {
+        display: none;
+    }
 
-.swiper-button-next {
-    display: none;
-}
+    .swiper-button-next {
+        display: none;
+    }
+
+    .hotel-text {
+        padding: 0;
+    }
+
+    .homepage .bnr-text h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+   
+
 }
 
 @media screen and (max-width:575px) {
@@ -149,6 +161,14 @@
     .footer_disclaimer {
         padding: 20px 30px;
     }
+
+     .homepage.second {
+        height: 100%;
+    }
+
+    .second-heading {
+    font-size: 27px;
+}
 }
 
 @media(max-width:425px) {
