@@ -115,6 +115,30 @@
     .pb-80 {
         padding-top: 40px;
     }
+
+    .listing {
+        flex: 1 100%;
+    }
+
+    .explore-image {
+        width: 100%;
+    }
+
+    .explore-text-image {
+        width: 100%;
+    }
+
+    .just-winning-inner {
+    padding: 20px 30px 10px;
+}
+
+.swiper-button-prev {
+    display: none;
+}
+
+.swiper-button-next {
+    display: none;
+}
 }
 
 @media screen and (max-width:575px) {
