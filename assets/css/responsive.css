@@ -149,6 +149,14 @@
         line-height: 38px;
     }
 
+    .contact-section {
+    padding: 50px 20px;
+}
+
+li.footer_item {
+    padding-bottom: 15px;
+}
+
    
 
 }
@@ -175,4 +183,7 @@
     .footer_btmWrapp {
         flex-wrap: wrap;
     }
+    .ssl {
+    width: 70%;
+}
 }
