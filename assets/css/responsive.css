@@ -96,10 +96,19 @@
     .listing {
     width: 100%;
 }
+
+.footer_disclaimer {
+    padding: 20px 80px;
+        clip-path: none;
+}
 }
 
 @media screen and (max-width:575px){
     .hero-text h1 {
         font-size: 30px;
     }
+
+    .footer_disclaimer {
+    padding: 20px 30px;
+}
 }

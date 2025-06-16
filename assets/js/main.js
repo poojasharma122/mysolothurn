@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 var swiper = new Swiper(".swiper", {
   loop: true,
   autoplay: {
-    delay: 3000,      // 3 seconds between slides
+    delay: 5000,      // 3 seconds between slides
     disableOnInteraction: false
   },
   navigation: {
