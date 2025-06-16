@@ -1140,7 +1140,7 @@ button.close-text-button:hover svg {
 
 .listing {
     flex: 1 1 30%;
-    background: #fff;
+    background: #fff2d3;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1161,8 +1161,7 @@ button.close-text-button:hover svg {
 }
 
 .listing h3 {
-    font-size: 20px;
-    color: #000;
+    font-size: 18px;
     font-weight: 600;
     line-height: 27px;
 }
@@ -1337,8 +1336,6 @@ button.close-text-button:hover svg {
 
 
 .form-container {
-    display: flex
-;
     background-color: #0080808c;
     width: 100%;
     max-width: 600px;
@@ -1346,8 +1343,6 @@ button.close-text-button:hover svg {
     padding: 30px 40px;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-    flex-direction: column;
-    justify-content: center;
 }
 
 .contact-form .row {
