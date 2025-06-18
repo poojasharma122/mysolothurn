@@ -34,14 +34,33 @@
                     </div>
 
                     <ul class="nav no-search">
-                        <li class="nav-item"><a href="./">Home</a></li>
-                        <li class="nav-item"><a href="hotels">Hotels</a></li>
-                        <li class="nav-item"><a href="destinations">Destinations</a></li>
+                        <li class="nav-item"><a href="./">Domov</a></li>
+                        <li class="nav-item"><a href="hotels">hotely</a></li>
+                        <li class="nav-item"><a href="destinations">Destinace</a></li>
                         <li class="nav-item"><a href="blog">Blog</a></li>
-                        <li class="nav-item"><a href="gallery">Gallery</a></li>
-                        <li class="nav-item"><a href="about">About</a></li>
-                        <li class="nav-item"><a class="active" href="contact">Contact</a></li>
+                        <li class="nav-item"><a href="gallery">Galerie</a></li>
+                        <li class="nav-item"><a href="about">O</a></li>
+                        <li class="nav-item"><a href="contact" class="active">Kontakt</a></li>
                     </ul>
+                    <div class="language_dropdown dropdown" id="langDropdown">
+                        <a class="dropdown-toggle" href="javascript:void(0)" role="button" id="languageDropdownBtn">
+                            <img src="assets/images/Czech-flag.jpg" alt="Czech Flag" id="currentFlag">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="languageDropdownBtn">
+                            <a class="dropdown-item" href="../">
+                                <img src="assets/images/english-flag.jpg" alt="English Flag"> English
+                            </a>
+                            <a class="dropdown-item" href="../es">
+                                <img src="assets/images/Spanish-flag.jpg" alt="Spanish Flag"> Spanish
+                            </a>
+                            <a class="dropdown-item" href="../cz">
+                                <img src="assets/images/Czech-flag.jpg" alt="Czech Flag"> Czech
+                            </a>
+                            <a class="dropdown-item" href="../de">
+                                <img src="assets/images/German-flag.jpg" alt="German Flag"> German
+                            </a>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -53,11 +72,11 @@
     <section class="homepage second" style="background-image: url(assets/images/contactbanner.jpg);">
         <div class="container">
             <div class="bnr-text">
-                <h1 class="overflow-hidden drop-in-2">Contact
+                <h1 class="overflow-hidden drop-in-2">Kontakt
                 </h1>
                 <p class="drop-in-2">
-                    We’d love to hear from you. Whether you're planning a trip, looking to partner with us, or just have
-                    a suggestion — our inbox is open.
+                    Rádi bychom od vás slyšeli. Ať už plánujete cestu, chcete s námi spolupracovat, nebo máte jen návrh
+                    – naše schránka je otevřená.
                 </p>
 
             </div>
@@ -71,27 +90,28 @@
             <div class="contact-info">
                 <div class="contact-grid">
                     <div class="info-block">
-                        <h3>📩 General Enquiries</h3>
+                        <h3>📩 Obecné dotazy</h3>
                         <div class="emailwrap"><strong>Email:</strong><br><a
                                 href="mailto:contact@mysolothurn.com">contact@mysolothurn.com</a> </div>
-                        <p> For questions about destinations, Interrail passes, or travel planning — drop us a line and
-                            we’ll aim to reply within 48 hours.
+                        <p> Máte-li dotazy ohledně destinací, jízdenek Interrail nebo plánování cestování, napište nám a
+                            my se vám pokusíme odpovědět do 48 hodin.
                         </p>
                     </div>
                     <div class="info-block">
-                        <h3>🤝 Hotel & Brand Partnerships</h3>
+                        <h3>🤝 Partnerství hotelů a značek</h3>
                         <div class="emailwrap"><strong>Email:</strong><br><a
                                 href="mailto:contact@mysolothurn.com">partnerships@mysolothurn.com</a> </div>
-                        <p> Interested in featuring your hotel or travel service? We only partner with brands that match
-                            our travel ethos: simplicity, quality, and accessibility by rail.</p>
+                        <p> Máte zájem o prezentaci vašeho hotelu nebo cestovních služeb? Spolupracujeme pouze se
+                            značkami, které odpovídají našemu cestovnímu étosu: jednoduchost, kvalita a dostupnost
+                            vlakem.</p>
                     </div>
                     <div class="info-block">
-                        <h3>📰 Press & Media
+                        <h3>📰 Tisk a média
                         </h3>
                         <div class="emailwrap"><strong>Email:</strong><br><a href="mailto:contact@mysolothurn.com">
                                 media@mysolothurn.com</a> </div>
-                        <p> For interviews, editorial collaborations, or inclusion in your publication, please contact
-                            our media team.
+                        <p> Pro rozhovory, redakční spolupráci nebo zařazení do vaší publikace kontaktujte prosím náš
+                            mediální tým.
                         </p>
                     </div>
                 </div>
@@ -101,8 +121,8 @@
                 <form class="contact-form">
                     <div class="row">
                         <div class="input-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" placeholder="Name">
+                            <label for="name">Jméno</label>
+                            <input type="text" id="name" placeholder="Jméno">
                         </div>
                         <div class="input-group">
                             <label for="email">Email</label>
@@ -110,15 +130,15 @@
                         </div>
 
                         <div class="input-group">
-                            <label for="phone">Phone</label>
-                            <input type="tel" id="phone" placeholder="Phone">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" placeholder="Telefon">
                         </div>
                         <div class="input-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" placeholder="Message" rows="5"></textarea>
+                            <label for="message">Zpráva</label>
+                            <textarea id="message" placeholder="Zpráva" rows="5"></textarea>
                         </div>
 
-                        <button class="glow-button" type="submit">SUBMIT</button>
+                        <button class="glow-button" type="submit">PŘEDLOŽIT</button>
                     </div>
                 </form>
             </div>
@@ -131,30 +151,30 @@
         <div class="container">
             <div class="footer_wrapper">
                 <div class="footer_disclaimer ">
-                    <h4>Disclaimer
+                    <h4>Zřeknutí se odpovědnosti
                     </h4>
                     <p>
-                        The information provided on mysolothurn.com is for general informational purposes only. While we
-                        strive to keep content accurate and up to date, we make no warranties or representations
-                        regarding the completeness, reliability, or accuracy of any listings, travel advice, or external
-                        links. Users are encouraged to verify details such as accommodation availability, local
-                        regulations, and travel requirements independently. mysolothurn.com is not liable for any
-                        losses, injuries, or damages arising from the use of this website.
+                        Informace uvedené na webu mysolothurn.com slouží pouze pro obecné informační účely. I když se
+                        snažíme udržovat obsah přesný a aktuální, neposkytujeme žádné záruky ani prohlášení ohledně
+                        úplnosti, spolehlivosti nebo přesnosti jakýchkoli nabídek, cestovních rad nebo externích odkazů.
+                        Uživatelé se vyzývají, aby si sami ověřili podrobnosti, jako je dostupnost ubytování, místní
+                        předpisy a cestovní požadavky. mysolothurn.com nenese odpovědnost za žádné ztráty, zranění nebo
+                        škody vzniklé v důsledku používání těchto webových stránek.
                     </p>
                 </div>
                 <div class="footer_navbar" data-aos="fade-left">
                     <ul class="footer_list">
                         <li class="footer_item">
-                            <a href="privacy-policy">Privacy Policy
+                            <a href="privacy-policy">Zásady ochrany osobních údajů
                             </a>
                         </li>
                         <li class="footer_item">
-                            <a href="terms-and-conditions">Terms & Conditions
+                            <a href="terms-and-conditions">Smluvní podmínky
                             </a>
                         </li>
 
                         <li class="footer_item">
-                            <a href="personal-data-policy">Personal Data Policy
+                            <a href="personal-data-policy">Zásady ochrany osobních údajů
                             </a>
                         </li>
                     </ul>
@@ -200,7 +220,7 @@
                     <div class="footer_btmWrapp">
                         <div class="copyright">
                             <p>
-                                Copyright © 2025.mysolothurn.com All rights reserved</p>
+                                Autorská práva © 2025.mysolothurn.com Všechna práva vyhrazena</p>
                             <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                         <div class="ssl">

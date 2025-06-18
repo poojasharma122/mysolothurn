@@ -11,54 +11,75 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    <title>Personal Data Policy</title>
+    <title>Zásady ochrany osobních údajů</title>
 </head>
 
 
 <body>
-    <!-- Header Section start-->
-    <header>
-        <div class="container">
-            <div class="nav-wrapper">
-                <nav class="navbar">
-                    <!--site Logo -->
-                    <a href="./" class="logo">
+   <!-- Header Section start-->
+   <header>
+    <div class="container">
+        <div class="nav-wrapper">
+            <nav class="navbar">
+                <!--site Logo -->
+                <a href="./" class="logo">
 
+                </a>
+
+                <!-- Mobile Menu Toggle -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <ul class="nav no-search">
+                    <li class="nav-item"><a class="" href="./">Domov</a></li>
+                    <li class="nav-item"><a href="hotels">hotely</a></li>
+                    <li class="nav-item"><a href="destinations">Destinace</a></li>
+                    <li class="nav-item"><a href="blog">Blog</a></li>
+                    <li class="nav-item"><a href="gallery">Galerie</a></li>
+                    <li class="nav-item"><a href="about">O</a></li>
+                    <li class="nav-item"><a href="contact">Kontakt</a></li>
+                </ul>
+                <div class="language_dropdown dropdown" id="langDropdown">
+                    <a class="dropdown-toggle" href="javascript:void(0)" role="button" id="languageDropdownBtn">
+                        <img src="assets/images/Czech-flag.jpg" alt="Czech Flag" id="currentFlag">
                     </a>
-
-                    <!-- Mobile Menu Toggle -->
-                    <div class="menu-toggle" id="mobile-menu">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
+                    <div class="dropdown-menu" aria-labelledby="languageDropdownBtn">
+                        <a class="dropdown-item" href="../">
+                            <img src="assets/images/english-flag.jpg" alt="English Flag"> English
+                        </a>
+                        <a class="dropdown-item" href="../es">
+                            <img src="assets/images/Spanish-flag.jpg" alt="Spanish Flag"> Spanish
+                        </a>
+                        <a class="dropdown-item" href="../cz">
+                            <img src="assets/images/Czech-flag.jpg" alt="Czech Flag"> Czech
+                        </a>
+                        <a class="dropdown-item" href="../de">
+                            <img src="assets/images/German-flag.jpg" alt="German Flag"> German
+                        </a>
                     </div>
-
-                    <ul class="nav no-search">
-                        <li class="nav-item"><a href="./">Home</a></li>
-                        <li class="nav-item"><a href="hotels">Hotels</a></li>
-                        <li class="nav-item"><a href="destinations">Destinations</a></li>
-                        <li class="nav-item"><a href="blog">Blog</a></li>
-                        <li class="nav-item"><a href="gallery">Gallery</a></li>
-                        <li class="nav-item"><a href="about">About</a></li>
-                        <li class="nav-item"><a href="contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </div>
-    </header>
-    <!--  Header Section end-->
-
+    </div>
+</header>
+<!--  Header Section end-->
 
 
     <!-- banner Section start-->
     <section class="homepage second" style="background-image: url(assets/images/banner-min.jpg);">
         <div class="container">
             <div class="bnr-text">
-                <h1 class="overflow-hidden drop-in-2">Personal Data Policy
+                <h1 class="overflow-hidden drop-in-2">Zásady ochrany osobních údajů
                 </h1>
-               
+
                 <p class="drop-in-2">
-                   At MySolothurn, we are committed to protecting your personal data and handling it with transparency, care, and accountability. This Personal Data Protection Policy explains the nature of the data we collect, how it is processed, how we protect it, and the rights you have in accordance with the General Data Protection Regulation (GDPR) and other applicable privacy laws.
+                    V MySolothurn se zavazujeme chránit vaše osobní údaje a nakládat s nimi transparentně, pečlivě a
+                    zodpovědně. Tyto zásady ochrany osobních údajů vysvětlují povahu údajů, které shromažďujeme, jak
+                    jsou zpracovávány, jak je chráníme a jaká máte práva v souladu s obecným nařízením o ochraně
+                    osobních údajů (GDPR) a dalšími platnými zákony na ochranu osobních údajů.
                 </p>
 
             </div>
@@ -71,225 +92,237 @@
     <div class="policy-wrapper">
         <div class="policy-section">
             <h2 class="section-title">
-                1. Purpose of This Policy
+                1. Účel těchto zásad
             </h2>
-            <p>This policy outlines our approach to data protection and provides guidance on how personal data is collected, stored, shared, and used. It applies to all users of our website (mysolothurn.com), newsletter subscribers, and individuals who contact us.</p>
-            
+            <p>Tyto zásady popisují náš přístup k ochraně osobních údajů a poskytují pokyny k tomu, jak jsou osobní
+                údaje shromažďovány, ukládány, sdíleny a používány. Vztahují se na všechny uživatele našich webových
+                stránek (mysolothurn.com), odběratele newsletteru a jednotlivce, kteří nás kontaktují.</p>
+
         </div>
 
         <div class="policy-section">
             <h2 class="section-title">
-                2. What is Personal Data?
+                2. Co jsou osobní údaje?
             </h2>
             <p>
-                Under GDPR, personal data refers to any information that can directly or indirectly identify a living individual. This may include:
+                Podle GDPR se osobními údaji rozumí jakékoli informace, které mohou přímo či nepřímo identifikovat
+                žijícího jednotlivce. Může se jednat o:
             </p>
             <ul>
                 <li>
-                    Full name
+                    Celé jméno
                 </li>
                 <li>
-                    Email address
+                    E-mailová adresa
                 </li>
                 <li>
-                    IP address
+                    IP adresa
                 </li>
                 <li>
-                    Device identifiers
+                    Identifikátory zařízení
                 </li>
                 <li>
-                    Browser type and preferences
+                    Typ a preference prohlížeče
                 </li>
                 <li>
-                    Travel preferences (if provided voluntarily)
+                    Cestovní preference (pokud jsou poskytnuty dobrovolně)
                 </li>
             </ul>
         </div>
 
         <div class="policy-section">
             <h2 class="section-title">
-                3. Principles We Follow
+                3. Zásady, kterými se řídíme
             </h2>
             <p>
-                We adhere to the following principles when processing personal data:
+                Při zpracování osobních údajů se řídíme následujícími zásadami:
             </p>
             <ul>
-                <li><strong>Lawfulness, fairness, and transparency: </strong>We only collect data lawfully and explain how we use it.
+                <li><strong>Zákonnost, spravedlnost a transparentnost: </strong>Údaje shromažďujeme pouze zákonným
+                    způsobem a vysvětlujeme, jak je používáme.</li>
+                <li>
+                    <strong>Omezení účelu: </strong>Údaje shromažďujeme pouze pro konkrétní, legitimní účely.
                 </li>
                 <li>
-                    <strong>Purpose limitation: </strong>We only collect data for specific, legitimate purposes.
+                    <strong>Minimalizace dat:</strong> Shromažďujeme pouze údaje, které skutečně potřebujeme.
                 </li>
                 <li>
-                    <strong>Data minimisation:</strong> We only collect the data we truly need.
+                    <strong>Přesnost:</strong> Data uchováváme přesná a aktuální.
                 </li>
                 <li>
-                    <strong>Accuracy:</strong> We keep data accurate and up to date.
+                    <strong>Omezení úložiště: </strong> Data uchováváme pouze po nezbytně dlouhou dobu.
                 </li>
                 <li>
-                    <strong>Storage limitation: </strong>We retain data only as long as necessary.
+                    <strong>Integrita a důvěrnost:</strong> Data chráníme vhodnými bezpečnostními opatřeními.
                 </li>
                 <li>
-                    <strong>Integrity and confidentiality:</strong> We protect data with appropriate security measures.
-                </li>
-                <li>
-                    <strong>Accountability: </strong>We take full responsibility for how we process and store data.
+                    <strong>Odpovědnost: </strong>Přebíráme plnou odpovědnost za to, jak data zpracováváme a ukládáme.
                 </li>
             </ul>
-            
+
         </div>
 
         <div class="policy-section">
-            <h2 class="section-title">4. How We Collect Personal Data</h2>
+            <h2 class="section-title">4. Jak shromažďujeme osobní údaje</h2>
             <p>
-                We collect data through the following methods:
+                Údaje shromažďujeme následujícími metodami:
             </p>
             <ul>
                 <li>
-                    When you fill out a contact form
+                    Když vyplníte kontaktní formulář
                 </li>
                 <li>
-                    When you subscribe to our newsletter
+                    Když se přihlásíte k odběru našeho newsletteru
                 </li>
                 <li>
-                    When you interact with our website (via cookies and analytics tools)
+                    Když interagujete s našimi webovými stránkami (prostřednictvím souborů cookie a analytických
+                    nástrojů)
                 </li>
                 <li>
-                    When you send us an email
+                    Když nám pošlete e-mail
                 </li>
             </ul>
             <p>
-                We do not collect sensitive data such as health information, racial or ethnic origin, or political opinions.
+                Neshromažďujeme citlivé údaje, jako jsou zdravotní informace, rasový nebo etnický původ nebo politické
+                názory.
             </p>
         </div>
 
         <div class="policy-section">
             <h2 class="section-title">
-                5. Lawful Basis for Processing
+                5. Právní základ pro zpracování
             </h2>
             <p>
-               We process personal data under one or more of the following lawful bases:
+                Osobní údaje zpracováváme na základě jednoho nebo více z následujících právních základů:
             </p>
             <ul>
                 <li>
-                    <strong>Consent:</strong>  For newsletter subscriptions and marketing communications
+                    <strong>Souhlas:</strong> Pro odběr novinek a marketingovou komunikaci
                 </li>
                 <li>
-                    <strong>Contractual necessity:</strong> When we respond to your enquiry or request
+                    <strong>Smluvní nutnost:</strong> Když reagujeme na váš dotaz nebo žádost
                 </li>
                 <li>
-                    <strong>Legitimate interest: </strong>For improving site functionality and content
+                    <strong>Oprávněný zájem: </strong>Pro zlepšení funkčnosti a obsahu webu
                 </li>
                 <li>
-                    <strong>Legal obligation:</strong> If required by law, such as in response to regulatory authorities
+                    <strong>Zákonná povinnost:</strong> Pokud to vyžaduje zákon, například v reakci na regulační orgány
                 </li>
             </ul>
-            
+
         </div>
 
         <div class="policy-section">
             <h2 class="section-title">
-                6. Data Retention
+                6. Uchovávání údajů
             </h2>
             <p>
-                We only retain your data for as long as necessary to fulfil the purpose for which it was collected, or as required by applicable laws. For example:
+                Vaše údaje uchováváme pouze po dobu nezbytně nutnou k naplnění účelu, pro který byly shromážděny, nebo
+                jak to vyžadují platné zákony. Například:
             </p>
             <ul>
                 <li>
-                    Email enquiries: kept for up to 12 months
+                    E-mailové dotazy: uchovávány až 12 měsíců
                 </li>
                 <li>
-                    Newsletter signups: stored until you unsubscribe
+                    Přihlášení k odběru newsletteru: uchovávány do odhlášení
                 </li>
                 <li>
-                    Analytics data: stored in anonymised, aggregated form
+                    Analytická data: uchovávána v anonymizované, agregované podobě
                 </li>
             </ul>
             <p>
-                You can manage or disable cookies at any time via your browser settings. For a full breakdown, refer to
-                our <a href="#">Cookie Policy</a>.
+                Soubory cookie můžete kdykoli spravovat nebo zakázat v nastavení prohlížeče. Úplný rozpis naleznete v
+                našich <a href="#">Zásadách používání souborů cookie</a>.
             </p>
         </div>
 
         <div class="policy-section">
             <h2 class="section-title">
-                7. Data Sharing and Third Parties
+                7. Sdílení dat a třetí strany
             </h2>
-            
-          
+
             <p>
-                We do not sell or rent your personal data. We may share data with carefully selected third-party processors (e.g., email marketing providers, analytics platforms, web hosts), strictly for operational purposes. These processors must agree to uphold data protection standards and may not use your data for their own purposes.
+                Vaše osobní údaje neprodáváme ani nepronajímáme. Data můžeme sdílet s pečlivě vybranými třetími stranami
+                zpracovateli (např. poskytovateli e-mailového marketingu, analytickými platformami, webhostingovými
+                poskytovateli) výhradně pro provozní účely. Tito zpracovatelé se musí zavázat k dodržování standardů
+                ochrany osobních údajů a nesmí vaše data používat pro své vlastní účely. </p>
+        </div>
+
+        <div class="policy-section">
+            <h2 class="section-title">
+                8. Mezinárodní přenosy
+            </h2>
+            <p>
+                Pokud jsou vaše údaje přenášeny mimo Evropský hospodářský prostor (EHP), zajišťujeme, aby tyto přenosy
+                byly v souladu se zákony na ochranu osobních údajů, a to buď prostřednictvím rozhodnutí o odpovídající
+                ochraně, standardních smluvních doložek (SCC) nebo podobných mechanismů.
             </p>
         </div>
 
         <div class="policy-section">
             <h2 class="section-title">
-                8. International Transfers
+                9. Vaše práva
             </h2>
             <p>
-               If your data is transferred outside of the European Economic Area (EEA), we ensure that such transfers are compliant with data protection laws, either through adequacy decisions, Standard Contractual Clauses (SCCs), or similar mechanisms.
-            </p>
-        </div>
-
-        <div class="policy-section">
-            <h2 class="section-title">
-                9. Your Rights
-            </h2>
-            <p>
-                Under data protection laws, you have the right to:
+                Podle zákonů na ochranu osobních údajů máte právo:
             </p>
             <ul>
-                <li>Request access to your personal data</li>
-                <li>Request rectification of inaccurate data</li>
-                <li>Request deletion (the “right to be forgotten”)</li>
-                <li>Object to processing or restrict use</li>
-                <li>Withdraw consent at any time</li>
-                <li>Lodge a complaint with a supervisory authority</li>
+                <li>Požádat o přístup ke svým osobním údajům</li>
+                <li>Požádat o opravu nepřesných údajů</li>
+                <li>Požádat o smazání („právo být zapomenut“)</li>
+                <li>Vznést námitku proti zpracování nebo omezit použití</li>
+                <li>Kdykoli odvolat souhlas</li>
+                <li>Podat stížnost u dozorového orgánu</li>
             </ul>
             <p>
-                To exercise these rights, contact us at <a
+                Chcete-li tato práva uplatnit, kontaktujte nás na adrese <a
                     href="mailto:privacy@mysolothurn.com">privacy@mysolothurn.com</a>
             </p>
         </div>
 
         <div class="policy-section">
             <h2 class="section-title">
-                10. Security Measures
+                10. Bezpečnostní opatření
             </h2>
             <p>
-               We use industry-standard security protocols and technical measures to protect personal data from loss, misuse, or unauthorised access. This includes encryption, access controls, and secure data hosting.
+                Používáme standardní bezpečnostní protokoly a technická opatření k ochraně osobních údajů před ztrátou,
+                zneužitím nebo neoprávněným přístupem. Patří sem šifrování, kontrola přístupu a bezpečné hostování dat.
             </p>
         </div>
 
         <div class="policy-section">
             <h2 class="section-title">
-                11. Children’s Data
+                11. Údaje o dětech
             </h2>
             <p>
-               Our site is not directed to children under 16, and we do not knowingly collect data from minors. If you believe we have received data from a child, contact us immediately and we will remove it.
+                Naše stránky nejsou určeny dětem mladším 16 let a vědomě neshromažďujeme údaje od nezletilých osob.
+                Pokud se domníváte, že jsme obdrželi údaje od dítěte, okamžitě nás kontaktujte a my je odstraníme.
             </p>
-           
-        </div>
-
-         <div class="policy-section">
-            <h2 class="section-title">
-                12. Changes to This Policy
-            </h2>
-            <p>
-              We may revise this Personal Data Policy from time to time. All changes will be published on this page and clearly dated. You are encouraged to review this policy periodically.
-            </p>
-           
         </div>
 
         <div class="policy-section">
             <h2 class="section-title">
-                Contact Us
+                12. Změny těchto zásad
             </h2>
             <p>
-                For all personal data matters, you can contact our data protection team:<br>
+                Tyto zásady ochrany osobních údajů můžeme čas od času revidovat. Všechny změny budou zveřejněny na této
+                stránce a jasně datovány. Doporučujeme vám tyto zásady pravidelně kontrolovat.
+            </p>
+
+        </div>
+
+        <div class="policy-section">
+            <h2 class="section-title">
+                Kontaktujte nás
+            </h2>
+            <p>
+                S veškerými záležitostmi týkajícími se osobních údajů se můžete obrátit na náš tým pro ochranu osobních
+                údajů:<br>
                 📧 <a href="mailto:privacy@mysolothurn.com">privacy@mysolothurn.com</a></p>
-                <p>
-                    📬 MySolothurn Travel Media
-                </p>
+            <p>
+                📬 MySolothurn Travel Media
+            </p>
         </div>
     </div>
 
@@ -298,30 +331,30 @@
         <div class="container">
             <div class="footer_wrapper">
                 <div class="footer_disclaimer ">
-                    <h4>Disclaimer
+                    <h4>Prohlášení o vyloučení odpovědnosti
                     </h4>
                     <p>
-                        The information provided on mysolothurn.com is for general informational purposes only. While we
-                        strive to keep content accurate and up to date, we make no warranties or representations
-                        regarding the completeness, reliability, or accuracy of any listings, travel advice, or external
-                        links. Users are encouraged to verify details such as accommodation availability, local
-                        regulations, and travel requirements independently. mysolothurn.com is not liable for any
-                        losses, injuries, or damages arising from the use of this website.
+                        Informace uvedené na webu mysolothurn.com slouží pouze pro obecné informační účely. I když se
+                        snažíme udržovat obsah přesný a aktuální, neposkytujeme žádné záruky ani prohlášení ohledně
+                        úplnosti, spolehlivosti nebo přesnosti jakýchkoli nabídek, cestovních rad nebo externích odkazů.
+                        Uživatelé se vyzývají, aby si sami ověřili podrobnosti, jako je dostupnost ubytování, místní
+                        předpisy a cestovní požadavky. mysolothurn.com nenese odpovědnost za žádné ztráty, zranění ani
+                        škody vzniklé v důsledku používání těchto webových stránek.
                     </p>
                 </div>
                 <div class="footer_navbar" data-aos="fade-left">
                     <ul class="footer_list">
                         <li class="footer_item">
-                            <a href="privacy-policy">Privacy Policy
+                            <a href="privacy-policy">Zásady ochrany osobních údajů
                             </a>
                         </li>
                         <li class="footer_item">
-                            <a href="terms-and-conditions">Terms & Conditions
+                            <a href="terms-and-conditions">Smluvní podmínky
                             </a>
                         </li>
-                        
+
                         <li class="footer_item">
-                            <a href="personal-data-policy">Personal Data Policy
+                            <a href="personal-data-policy">Zásady ochrany osobních údajů
                             </a>
                         </li>
                     </ul>
@@ -367,7 +400,7 @@
                     <div class="footer_btmWrapp">
                         <div class="copyright">
                             <p>
-                                Copyright © 2025.mysolothurn.com All rights reserved</p>
+                                Autorská práva © 2025.mysolothurn.com Všechna práva vyhrazena</p>
                             <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                         <div class="ssl">
@@ -380,7 +413,7 @@
     </footer>
     <!-- footer sec end -->
 
-        <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.js"></script>
     <script src="assets/js/swiper.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>
