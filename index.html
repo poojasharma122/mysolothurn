@@ -42,6 +42,26 @@
                         <li class="nav-item"><a href="about">About</a></li>
                         <li class="nav-item"><a href="contact">Contact</a></li>
                     </ul>
+
+                    <div class="language_dropdown dropdown" id="langDropdown">
+                        <a class="dropdown-toggle" href="javascript:void(0)" role="button" id="languageDropdownBtn">
+                            <img src="assets/images/english-flag.jpg" alt="Czech Flag" id="currentFlag">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="languageDropdownBtn">
+                            <a class="dropdown-item" href="./">
+                                <img src="assets/images/english-flag.jpg" alt="English Flag"> English
+                            </a>
+                            <a class="dropdown-item" href="es/">
+                                <img src="assets/images/Spanish-flag.jpg" alt="Spanish Flag"> Spanish
+                            </a>
+                            <a class="dropdown-item" href="cz/">
+                                <img src="assets/images/Czech-flag.jpg" alt="Czech Flag"> Czech
+                            </a>
+                            <a class="dropdown-item" href="de/">
+                                <img src="assets/images/German-flag.jpg" alt="German Flag"> German
+                            </a>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -145,7 +165,7 @@
     </section>
 
     <!-- sleep close section end -->
-     
+
 
     <!-- don't just winning section start -->
     <section class="just-winning pt-80 pb-80">
@@ -193,7 +213,7 @@
     <!-- section end -->
 
 
-<!-- travel smarter section start -->
+    <!-- travel smarter section start -->
     <section class="newsletter_sec pt-80 pb-80">
         <div class="container">
             <div class="row">
@@ -206,19 +226,18 @@
             </div>
             <div class="newslettr_wrap text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
                 <h4>
-                     Get city tips, route plans, and hotel picks in your inbox.
+                    Get city tips, route plans, and hotel picks in your inbox.
                 </h4>
 
                 <p id="email-message" style="color: red; display: none;"></p>
                 <div class="newsletter_input_box">
-                    <span class="input_msg"
-                        style="background-image: url('assets/images/mail-svg.svg');">
+                    <span class="input_msg" style="background-image: url('assets/images/mail-svg.svg');">
                     </span>
                     <input type="text" id="newsletter-email" placeholder="Enter Your Email">
                 </div>
-                
+
                 <div class="explore-button">
-                    <a class="glow-button" href="javascript:void(0)"> Subscribe  </a>
+                    <a class="glow-button" href="javascript:void(0)"> Subscribe </a>
                 </div>
 
             </div>
@@ -228,7 +247,7 @@
 
 
     <!-- feature hotel section start -->
-     <section class="feature-hotel pt-80 pb-80">
+    <section class="feature-hotel pt-80 pb-80">
         <div class="container">
             <div class="heading-slider">
                 <h2>
@@ -237,32 +256,36 @@
             </div>
             <div class="feature-hotel-inner swiper mySwiper">
                 <!-- 01 -->
-                    <div class="swiper-wrapper">
+                <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="feature-innner-card">
                             <div class="row">
-                            <div class="col-md-6">
-                                <div class="hotel-text">
-                                    <h3>
-                                        Terminus Nord
-                                    </h3>
-                                    <h5><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>  Paris</h5>
-                                    <ul>
-                                        <li>
-                                            2-minute walk from Gare du Nord, ideal for Eurostar and local trains
-                                        </li>
-                                        <li>
-                                            Bold interiors with a mix of classic and modern design
-                                        </li>
-                                        <li>
-                                            On-site Mediterranean-inspired restaurant and café
-                                        </li>
-                                    </ul>
+                                <div class="col-md-6">
+                                    <div class="hotel-text">
+                                        <h3>
+                                            Terminus Nord
+                                        </h3>
+                                        <h5><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                <path
+                                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                            </svg> Paris</h5>
+                                        <ul>
+                                            <li>
+                                                2-minute walk from Gare du Nord, ideal for Eurostar and local trains
+                                            </li>
+                                            <li>
+                                                Bold interiors with a mix of classic and modern design
+                                            </li>
+                                            <li>
+                                                On-site Mediterranean-inspired restaurant and café
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="hotel-image " style="background-image: url(assets/images/feature-hotel-image1.jpg);"></div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="hotel-image "
+                                        style="background-image: url(assets/images/feature-hotel-image1.jpg);"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -270,28 +293,32 @@
                     <div class="swiper-slide">
                         <div class="feature-innner-card">
                             <div class="row">
-                            <div class="col-md-6">
-                                <div class="hotel-text">
-                                    <h3>
-                                        Hotel Abbazia
-                                    </h3>
-                                    <h5><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>  Venice</h5>
-                                    <ul>
-                                        <li>
-                                            5-minute walk from Santa Lucia station
-                                        </li>
-                                        <li>
-                                            Housed in a restored monastery with original frescoes
-                                        </li>
-                                        <li>
-                                            Peaceful courtyard garden for a break from the crowds
-                                        </li>
-                                    </ul>
+                                <div class="col-md-6">
+                                    <div class="hotel-text">
+                                        <h3>
+                                            Hotel Abbazia
+                                        </h3>
+                                        <h5><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                <path
+                                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                            </svg> Venice</h5>
+                                        <ul>
+                                            <li>
+                                                5-minute walk from Santa Lucia station
+                                            </li>
+                                            <li>
+                                                Housed in a restored monastery with original frescoes
+                                            </li>
+                                            <li>
+                                                Peaceful courtyard garden for a break from the crowds
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="hotel-image " style="background-image: url(assets/images/feature-hotel-image2.jpg);"></div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="hotel-image "
+                                        style="background-image: url(assets/images/feature-hotel-image2.jpg);"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -299,28 +326,32 @@
                     <div class="swiper-slide">
                         <div class="feature-innner-card">
                             <div class="row">
-                            <div class="col-md-6">
-                                <div class="hotel-text">
-                                    <h3>
-                                        Profilhotels Copenhagen Plaza
-                                    </h3>
-                                    <h5><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>  Copenhagen</h5>
-                                    <ul>
-                                        <li>
-                                            Directly across from Central Station, beside Tivoli Gardens
-                                        </li>
-                                        <li>
-                                            Elegant heritage-style rooms and classic decor
-                                        </li>
-                                        <li>
-                                            Panoramic lounge with views across the city
-                                        </li>
-                                    </ul>
+                                <div class="col-md-6">
+                                    <div class="hotel-text">
+                                        <h3>
+                                            Profilhotels Copenhagen Plaza
+                                        </h3>
+                                        <h5><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                <path
+                                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                            </svg> Copenhagen</h5>
+                                        <ul>
+                                            <li>
+                                                Directly across from Central Station, beside Tivoli Gardens
+                                            </li>
+                                            <li>
+                                                Elegant heritage-style rooms and classic decor
+                                            </li>
+                                            <li>
+                                                Panoramic lounge with views across the city
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="hotel-image " style="background-image: url(assets/images/feature-hotel-image3.jpg);"></div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="hotel-image "
+                                        style="background-image: url(assets/images/feature-hotel-image3.jpg);"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -328,28 +359,32 @@
                     <div class="swiper-slide">
                         <div class="feature-innner-card">
                             <div class="row">
-                            <div class="col-md-6">
-                                <div class="hotel-text">
-                                    <h3>
-                                        Hôtel de l'Amphithéâtre
-                                    </h3>
-                                    <h5><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>  Nîmes</h5>
-                                    <ul>
-                                        <li>
-                                            Short walk from Nîmes station and Roman arena
-                                        </li>
-                                        <li>
-                                            Boutique feel with warm finishes and local character
-                                        </li>
-                                        <li>
-                                            Helpful staff and great base for exploring ancient ruins
-                                        </li>
-                                    </ul>
+                                <div class="col-md-6">
+                                    <div class="hotel-text">
+                                        <h3>
+                                            Hôtel de l'Amphithéâtre
+                                        </h3>
+                                        <h5><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                <path
+                                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                            </svg> Nîmes</h5>
+                                        <ul>
+                                            <li>
+                                                Short walk from Nîmes station and Roman arena
+                                            </li>
+                                            <li>
+                                                Boutique feel with warm finishes and local character
+                                            </li>
+                                            <li>
+                                                Helpful staff and great base for exploring ancient ruins
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="hotel-image " style="background-image: url(assets/images/feature-hotel-image4.jpg);"></div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="hotel-image "
+                                        style="background-image: url(assets/images/feature-hotel-image4.jpg);"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -357,63 +392,68 @@
                     <div class="swiper-slide">
                         <div class="feature-innner-card">
                             <div class="row">
-                            <div class="col-md-6">
-                                <div class="hotel-text">
-                                    <h3>
-                                        Urban Loft Hotel
-                                    </h3>
-                                    <h5><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg> Cologne</h5>
-                                    <ul>
-                                        <li>
-                                            5 minutes from Köln Hauptbahnhof
-                                        </li>
-                                        <li>
-                                            Industrial loft-style rooms with modern amenities
-                                        </li>
-                                        <li>
-                                            Rooftop terrace, co-working spaces, and a fitness area
-                                        </li>
-                                    </ul>
+                                <div class="col-md-6">
+                                    <div class="hotel-text">
+                                        <h3>
+                                            Urban Loft Hotel
+                                        </h3>
+                                        <h5><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                <path
+                                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                            </svg> Cologne</h5>
+                                        <ul>
+                                            <li>
+                                                5 minutes from Köln Hauptbahnhof
+                                            </li>
+                                            <li>
+                                                Industrial loft-style rooms with modern amenities
+                                            </li>
+                                            <li>
+                                                Rooftop terrace, co-working spaces, and a fitness area
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="hotel-image " style="background-image: url(assets/images/feature-hotel-image5.jpg);"></div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="hotel-image "
+                                        style="background-image: url(assets/images/feature-hotel-image5.jpg);"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
                 </div>
-
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
-            
-     </section>
-    
 
-     <!-- feature hotel section end -->
+        </div>
 
-     
+    </section>
 
-     <!-- Travel Europe section start -->
-      <section class="newslatter mb-80">
-            <div class="container">
-                <div class="newslatter_wrapper">
-                    <div class="newslatter_inner">
-                        <h2 class="page-heading">Travel Europe by Train, Not Trial and Error
-                        </h2>
-                        <p class="aos-init">Get the best routes, stay recommendations, and packing tips — straight to your inbox.
-                        </p>
-                        <form class="newslatter_form" >
-                            <input type="email" class="newslatter_input" placeholder="Your email address">
-                            <button type="submit" class="btn btn_subscribe glow-button">Subscribe </button>
-                        </form>
-                    </div>
+
+    <!-- feature hotel section end -->
+
+
+
+    <!-- Travel Europe section start -->
+    <section class="newslatter mb-80">
+        <div class="container">
+            <div class="newslatter_wrapper">
+                <div class="newslatter_inner">
+                    <h2 class="page-heading">Travel Europe by Train, Not Trial and Error
+                    </h2>
+                    <p class="aos-init">Get the best routes, stay recommendations, and packing tips — straight to your
+                        inbox.
+                    </p>
+                    <form class="newslatter_form">
+                        <input type="email" class="newslatter_input" placeholder="Your email address">
+                        <button type="submit" class="btn btn_subscribe glow-button">Subscribe </button>
+                    </form>
                 </div>
             </div>
-        </section>
-      <!-- Travel Europe section end -->
+        </div>
+    </section>
+    <!-- Travel Europe section end -->
 
 
 
@@ -444,7 +484,7 @@
                             <a href="terms-and-conditions">Terms & Conditions
                             </a>
                         </li>
-                        
+
                         <li class="footer_item">
                             <a href="personal-data-policy">Personal Data Policy
                             </a>
@@ -511,6 +551,9 @@
     <script src="assets/js/swiper.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+  
+    </script>
 
 </body>
 
