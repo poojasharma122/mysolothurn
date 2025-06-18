@@ -54,16 +54,29 @@ var swiper = new Swiper(".swiper", {
 
 
   
-// Read More Functionality JS Start
+// 
+      document.addEventListener('DOMContentLoaded', function () {
+            const dropdownBtn = document.getElementById('languageDropdownBtn');
+            const dropdownMenu = document.querySelector('#langDropdown .dropdown-menu');
 
-// $('.subpage-readmore-btn').click(function (e) {
-//   e.preventDefault();
-//   // console.log('click');
-//   $(this).parent().prev().slideToggle('slow');
-//   // $('.subpage-exp-content').slideToggle('slow');
-//   $(this).text($(this).text() == 'Read less' ? 'Read on' : 'Read less');
-// });
+            dropdownBtn.addEventListener('click', function (event) {
+                event.preventDefault();
+                dropdownMenu.classList.toggle('show');
+            });
 
-// Read More Functionality JS end
+            document.querySelectorAll('.dropdown-item').forEach(item => {
+                item.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const href = this.getAttribute('href');
+                    window.location.href = href;
+                });
+            });
+
+            document.addEventListener('click', function (event) {
+                if (!document.getElementById('langDropdown').contains(event.target)) {
+                    dropdownMenu.classList.remove('show');
+                }
+            });
+        });
 
   
