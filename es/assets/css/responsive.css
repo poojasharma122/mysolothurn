@@ -171,7 +171,10 @@
     .hero-text h1 {
         font-size: 30px;
     }
-
+.logo {
+    width: 150px;
+    height: 43px;
+}
     .footer_disclaimer {
         padding: 20px 30px;
     }
