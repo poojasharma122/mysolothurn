@@ -1417,7 +1417,7 @@ button.close-text-button:hover svg {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 100px;
+    width: auto;
 }
 
 .contact-info .info-block strong {
