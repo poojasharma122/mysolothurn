@@ -1669,3 +1669,6 @@ button.close-text-button:hover svg {
   }
   
   /* Language Dropdown CSS */
+  .dropdown-menu a:hover {
+    color: #008081;
+}

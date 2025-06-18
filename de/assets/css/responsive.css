@@ -45,6 +45,7 @@
     .bar {
         display: block;
         cursor: pointer;
+          margin-left: auto;
     }
 
     .mobile-nav {

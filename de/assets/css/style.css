@@ -1583,3 +1583,6 @@ button.close-text-button:hover svg {
 }
 
 /* privacy policy css end */
+.dropdown-menu a:hover {
+    color: #008081;
+}

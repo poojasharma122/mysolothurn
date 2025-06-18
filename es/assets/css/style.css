@@ -1673,3 +1673,7 @@ button.close-text-button:hover svg {
     right: auto;
   }
 }
+
+.dropdown-menu a:hover {
+    color: #008081;
+}

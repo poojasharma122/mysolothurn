@@ -45,6 +45,7 @@
     .bar {
         display: block;
         cursor: pointer;
+        margin-left: auto;
     }
 
     .mobile-nav {
@@ -151,18 +152,18 @@
     }
 
     .contact-section {
-    padding: 50px 20px;
-}
+        padding: 50px 20px;
+    }
 
-li.footer_item {
-    padding-bottom: 15px;
-}
+    li.footer_item {
+        padding-bottom: 15px;
+    }
 
-.heading-slider h2 {
-    padding-bottom: 20px;
-}
+    .heading-slider h2 {
+        padding-bottom: 20px;
+    }
 
-   
+
 
 }
 
@@ -175,24 +176,25 @@ li.footer_item {
         padding: 20px 30px;
     }
 
-     .homepage.second {
+    .homepage.second {
         height: 100%;
     }
 
     .second-heading {
-    font-size: 27px;
-}
+        font-size: 27px;
+    }
 
-.heading h2 {
-    font-size: 27px;
-}
+    .heading h2 {
+        font-size: 27px;
+    }
 }
 
 @media(max-width:425px) {
     .footer_btmWrapp {
         flex-wrap: wrap;
     }
+
     .ssl {
-    width: 70%;
-}
+        width: 70%;
+    }
 }
