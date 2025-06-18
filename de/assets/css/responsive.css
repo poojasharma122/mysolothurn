@@ -194,6 +194,10 @@ li.footer_item {
 .emailwrap {
     display: block;
 }
+
+.contact-info .info-block {
+    display: block;
+}
 }
 
 @media(max-width:425px) {
