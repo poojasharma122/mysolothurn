@@ -1672,3 +1672,7 @@ button.close-text-button:hover svg {
   .dropdown-menu a:hover {
     color: #008081;
 }
+
+.dropdown-item:active {
+    background: none !important;
+}

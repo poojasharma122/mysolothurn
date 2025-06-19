@@ -1675,3 +1675,7 @@ button.close-text-button:hover svg {
     right: auto;
   }
 }
+
+.dropdown-item:active {
+    background: none !important;
+}
